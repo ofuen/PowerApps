@@ -16,9 +16,11 @@ If(Toggle1.Value=true, true, false)
 ```Excel
 If(DataCardValue*.Value=true, true, false)
 ```
+##
 ***
 ##
 <b><u>If Toggle value is NO, N/A will be fill</u></b>
 ```Excel
 If(!(DataCardValue20),"N/A",Parent.Default)
 ```
+##
