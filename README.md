@@ -6,16 +6,16 @@
 ***
 <b>Formulas and Rules related to PowerApps</b>
 ***
-<b>Toggle</b>
-```css
+<b><u>Toggle</u></b>
+```Excel
 If(Toggle1.Value=true, true, false)
 ```
-<b>Yes/No</b>
-```css
+<b><u>Yes/No</u></b>
+```Excel
 If(DataCardValue*.Value=true, true, false)
 ```
 ***
-<b>If Toggle value is NO, N/A will be fill</b>
-```css
+<b><u>If Toggle value is NO, N/A will be fill</u></b>
+```Excel
 If(!(DataCardValue20),"N/A",Parent.Default)
 ```
