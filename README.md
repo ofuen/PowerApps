@@ -7,15 +7,15 @@
 <b>Formulas and Rules related to PowerApps</b>
 ***
 <b>Toggle</b>
-```JavaScript
+```css
 If(Toggle1.Value=true, true, false)
 ```
 <b>Yes/No</b>
-```JavaScript
+```css
 If(DataCardValue*.Value=true, true, false)
 ```
 ***
 <b>If Toggle value is NO, N/A will be fill</b>
-```JavaScript
+```css
 If(!(DataCardValue20),"N/A",Parent.Default)
 ```
