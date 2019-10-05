@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/19554935/66256981-bc639e80-e761-11e9-8f6c-03e461718035.png)
 ***
 Formulas and Rules related to PowerApps
 ***
