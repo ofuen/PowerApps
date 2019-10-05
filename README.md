@@ -4,7 +4,7 @@
   
   
 ***
-Formulas and Rules related to PowerApps
+<b>Formulas and Rules related to PowerApps</b>
 ***
 Toggle
 ```JavaScript
