@@ -24,11 +24,13 @@ If(DataCardValue*.Value=true, true, false)
 If(!(DataCardValue20),"N/A",Parent.Default)
 ```
 ##
+***
 <b><u>Default Property → Fill in N/A for Required field</u></b>
 ```Excel
 If(!(DataCardValue37),"N/A",Parent.Default)
 ```
 ###
+***
 <b><u>How to make two combo box search to display the content and vice versa</u></b>
 ```Excel
 If(!IsBlank(cbAddress.Selected.Text), 
