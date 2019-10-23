@@ -26,5 +26,5 @@ If(!(DataCardValue20),"N/A",Parent.Default)
 ##
 <b><u>Default Property → Fill in N/A for Required field</u></b>
 ```Excel
-f(!(DataCardValue37),"N/A",Parent.Default)
+If(!(DataCardValue37),"N/A",Parent.Default)
 ```
