@@ -39,3 +39,37 @@ Filter(dataSource, addressColumn = cbAddress.Selected.Text),
 Filter(dataSource, jobNumberColumn = cbJobNumber.Selected.Text),
 Notify("Either JobNumber or Address is required", Error))
 ```
+###
+***
+<b><u>OnCheck Property </u></b>
+```Excel
+ClearCollect(
+    	SelectedEquipment,
+    		If(CheckboxYes.Value,"Yes"),
+    		If(CheckboxNo.Value,"No"),
+    		If(CheckboxMaybe.Value,"Maybe")
+    );
+    ClearCollect(
+    	SelectedEquipment,Filter(
+    		SelectedEquipment,
+    		!IsBlank(Value)
+    	)
+    )
+```
+###
+***
+<b><u>OnUncheck Property </u></b>
+```Excel
+ClearCollect(
+    	SelectedEquipment,
+    		If(CheckboxYes.Value,"Yes"),
+    		If(CheckboxNo.Value,"No"),
+    		If(CheckboxMaybe.Value,"Maybe")
+    );
+    ClearCollect(
+    	SelectedEquipment,Filter(
+    		SelectedEquipment,
+    		!IsBlank(Value)
+    	)
+    )
+```
