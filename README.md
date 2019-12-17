@@ -73,3 +73,19 @@ ClearCollect(
     	)
     )
 ```
+###
+***
+<b><u>Concatenate using 2 column </u></b>
+```Excel
+Distinct(
+    Filter(
+        'SharePointListData',
+        SubCategory = SubCategoryDrp.Selected.Result
+    ),
+    Concatenate(
+        Item,
+        ", ",
+        ProductName
+    )
+)
+```
