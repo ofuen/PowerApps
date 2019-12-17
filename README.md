@@ -89,3 +89,11 @@ Distinct(
     )
 )
 ```
+###
+***
+<b><u>Remove Function - items property </u></b>
+```Excel
+Remove(myCollection, GalleryName.Selected)
+or
+Remove(myCollection, ThisItem)
+```
