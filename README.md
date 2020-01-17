@@ -97,3 +97,24 @@ Remove(myCollection, GalleryName.Selected)
 or
 Remove(myCollection, ThisItem)
 ```
+###
+***
+<b><u>Validate Form and Gallery </u></b>
+```Excel
+If(
+    !Form2.Valid,
+    SubmitForm(Form2),
+    ForAll(
+        Gallery1.AllItems,
+        Patch(
+            'Pitney Bowes Order',
+            Defaults('Pitney Bowes Order'),
+            Form2.Updates,
+            {Category: TextInput1.Text},
+            {SubCategory: TextInput1_1.Text},
+            {ProductName: TextInput1_2.Text},
+            {Quantity: TextInput3.Text}
+        )
+    )
+)
+```
