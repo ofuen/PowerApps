@@ -122,6 +122,7 @@ If(
 <b><u>Validate DOB in PowerApps</u></b>
 ***
 ![image](https://user-images.githubusercontent.com/19554935/83313399-0b27e200-a1e4-11ea-9098-03c6a1dbc0f8.png)
+![image](https://user-images.githubusercontent.com/19554935/83313439-2bf03780-a1e4-11ea-9fad-cb3afdf87cf2.png)
 ***
   ```Javascript
   If(
