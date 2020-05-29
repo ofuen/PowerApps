@@ -4,7 +4,7 @@
   
   
 ***
-<b>Formulas and Rules related to PowerApps</b>
+<b>PowerApps Formulas</b>
 ***
 ##
 <b><u>Toggle</u></b>
