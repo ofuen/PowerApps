@@ -126,5 +126,5 @@ If(
    Notify("The date value you typed within the Date Picker control is in wrong format. The correct format is mm/dd/yyyy.", NotificationType.Error), 
    Notify("Right Date format",NotificationType.Success, 2000)
 )
-###
+```
 ***
