@@ -120,6 +120,9 @@ If(
 ```
 ***
 <b><u>Validate DOB in PowerApps</u></b>
+***
+![image](https://user-images.githubusercontent.com/19554935/83313399-0b27e200-a1e4-11ea-9098-03c6a1dbc0f8.png)
+***
   ```Javascript
   If(
    !IsMatch(Text(DataCardValue17.SelectedDate), "\d{1,2}/\d{1,2}/\d{4}") || Value(First(Split(Text(DataCardValue17.SelectedDate), "/")).Result)>12 || Value(Last(FirstN(Split(Text(DataCardValue17.SelectedDate), "/"))).Result)>31, 
