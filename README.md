@@ -8,31 +8,31 @@
 ***
 ##
 <b><u>Toggle</u></b>
-```Excel
+```JavaScript
 If(Toggle1.Value=true, true, false)
 ```
 ##
 <b><u>Yes/No</u></b>
-```Excel
+```JavaScript
 If(DataCardValue*.Value=true, true, false)
 ```
 ##
 ***
 ##
 <b><u>If Toggle value is NO, N/A will be fill</u></b>
-```Excel
+```JavaScript
 If(!(DataCardValue20),"N/A",Parent.Default)
 ```
 ##
 ***
 <b><u>Default Property → Fill in N/A for Required field</u></b>
-```Excel
+```JavaScript
 If(!(DataCardValue37),"N/A",Parent.Default)
 ```
 ###
 ***
 <b><u>How to make two combo box search to display the content and vice versa</u></b>
-```Excel
+```JavaScript
 If(!IsBlank(cbAddress.Selected.Text), 
 Filter(dataSource, addressColumn = cbAddress.Selected.Text), 
 !IsBlank(cbJobNumber.Selected.Text), 
@@ -42,7 +42,7 @@ Notify("Either JobNumber or Address is required", Error))
 ###
 ***
 <b><u>OnCheck Property </u></b>
-```Excel
+```JavaScript
 ClearCollect(
     	SelectedEquipment,
     		If(CheckboxYes.Value,"Yes"),
@@ -59,7 +59,7 @@ ClearCollect(
 ###
 ***
 <b><u>OnUncheck Property </u></b>
-```Excel
+```JavaScript
 ClearCollect(
     	SelectedEquipment,
     		If(CheckboxYes.Value,"Yes"),
@@ -76,7 +76,7 @@ ClearCollect(
 ###
 ***
 <b><u>Concatenate using 2 column </u></b>
-```Excel
+```JavaScript
 Distinct(
     Filter(
         'SharePointListData',
@@ -92,7 +92,7 @@ Distinct(
 ###
 ***
 <b><u>Remove Function - items property </u></b>
-```Excel
+```JavaScript
 Remove(myCollection, GalleryName.Selected)
 or
 Remove(myCollection, ThisItem)
@@ -100,7 +100,7 @@ Remove(myCollection, ThisItem)
 ###
 ***
 <b><u>Validate Form and Gallery </u></b>
-```Excel
+```JavaScript
 If(
     !Form2.Valid,
     SubmitForm(Form2),
