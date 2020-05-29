@@ -118,3 +118,13 @@ If(
     )
 )
 ```
+***
+<b><u>Validate DOB in PowerApps</u></b>
+  ```Javascript
+  If(
+   !IsMatch(Text(DataCardValue17.SelectedDate), "\d{1,2}/\d{1,2}/\d{4}") || Value(First(Split(Text(DataCardValue17.SelectedDate), "/")).Result)>12 || Value(Last(FirstN(Split(Text(DataCardValue17.SelectedDate), "/"))).Result)>31, 
+   Notify("The date value you typed within the Date Picker control is in wrong format. The correct format is mm/dd/yyyy.", NotificationType.Error), 
+   Notify("Right Date format",NotificationType.Success, 2000)
+)
+###
+***
