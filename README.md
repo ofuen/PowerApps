@@ -4,7 +4,7 @@
   
   
 ***
-<b>PowerApps Formulas</b>
+### `PowerApps Formulas`
 ***
 ##
 <b><u>Toggle</u></b>
