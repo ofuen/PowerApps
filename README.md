@@ -7,12 +7,12 @@
 ### `PowerApps Formulas`
 ***
 ##
-# `Toggle` #
+## `Toggle` ##
 ```JavaScript
 If(Toggle1.Value=true, true, false)
 ```
 ##
-<b><u>Yes/No</u></b>
+## :white_check_mark: `Yes/No` ##
 ```JavaScript
 If(DataCardValue*.Value=true, true, false)
 ```
