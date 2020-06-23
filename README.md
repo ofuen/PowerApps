@@ -12,26 +12,26 @@
 If(Toggle1.Value=true, true, false)
 ```
 ##
-## :white_check_mark: `Yes/No` ##
+##### :white_check_mark: `Yes/No` #####
 ```JavaScript
 If(DataCardValue*.Value=true, true, false)
 ```
 ##
 ***
 ##
-# `If Toggle value is NO, N/A will be fill` #
+##### `If Toggle value is NO, N/A will be fill` #####
 ```JavaScript
 If(!(DataCardValue20),"N/A",Parent.Default)
 ```
 ##
 ***
-# `Default Property → Fill in N/A for Required field` #
+##### `Default Property → Fill in N/A for Required field` #####
 ```JavaScript
 If(!(DataCardValue37),"N/A",Parent.Default)
 ```
 ###
 ***
-<b><u>How to make two combo box search to display the content and vice versa</u></b>
+##### `How to make two combo box search to display the content and vice versa` #####
 ```JavaScript
 If(!IsBlank(cbAddress.Selected.Text), 
 Filter(dataSource, addressColumn = cbAddress.Selected.Text), 
@@ -41,7 +41,7 @@ Notify("Either JobNumber or Address is required", Error))
 ```
 ###
 ***
-<b><u>OnCheck Property </u></b>
+##### `OnCheck Property` #####
 ```JavaScript
 ClearCollect(
     	SelectedEquipment,
@@ -58,7 +58,7 @@ ClearCollect(
 ```
 ###
 ***
-<b><u>OnUncheck Property </u></b>
+##### `OnUncheck Property` #####
 ```JavaScript
 ClearCollect(
     	SelectedEquipment,
