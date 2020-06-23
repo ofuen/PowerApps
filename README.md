@@ -19,13 +19,13 @@ If(DataCardValue*.Value=true, true, false)
 ##
 ***
 ##
-## If Toggle value is NO, N/A will be fill ##
+# `If Toggle value is NO, N/A will be fill` #
 ```JavaScript
 If(!(DataCardValue20),"N/A",Parent.Default)
 ```
 ##
 ***
-## Default Property → Fill in N/A for Required field ##
+# `Default Property → Fill in N/A for Required field` #
 ```JavaScript
 If(!(DataCardValue37),"N/A",Parent.Default)
 ```
