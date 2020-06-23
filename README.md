@@ -7,7 +7,7 @@
 ### `PowerApps Formulas`
 ***
 ##
-###### `Toggle` ######
+##### `Toggle` #####
 ```JavaScript
 If(Toggle1.Value=true, true, false)
 ```
