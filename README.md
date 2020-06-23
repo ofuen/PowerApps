@@ -7,7 +7,7 @@
 ### `PowerApps Formulas`
 ***
 ##
-## `Toggle` ##
+# `Toggle` #
 ```JavaScript
 If(Toggle1.Value=true, true, false)
 ```
@@ -19,7 +19,7 @@ If(DataCardValue*.Value=true, true, false)
 ##
 ***
 ##
-<b><u>If Toggle value is NO, N/A will be fill</u></b>
+# If Toggle value is NO, N/A will be fill #
 ```JavaScript
 If(!(DataCardValue20),"N/A",Parent.Default)
 ```
