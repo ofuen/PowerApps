@@ -7,7 +7,7 @@
 ### `PowerApps Formulas`
 ***
 
-<details open> 
+<details> 
   <summary>Toggle</summary>
   <br>
 ```JavaScript
