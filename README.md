@@ -75,7 +75,7 @@ ClearCollect(
 ```
 ###
 ***
-<b><u>Concatenate using 2 column </u></b>
+##### `Concatenate using 2 column` #####
 ```JavaScript
 Distinct(
     Filter(
@@ -91,7 +91,7 @@ Distinct(
 ```
 ###
 ***
-<b><u>Remove Function - items property </u></b>
+##### `Remove Function - items property` #####
 ```JavaScript
 Remove(myCollection, GalleryName.Selected)
 or
@@ -99,7 +99,7 @@ Remove(myCollection, ThisItem)
 ```
 ###
 ***
-<b><u>Validate Form and Gallery </u></b>
+##### `Validate Form and Gallery` #####
 ```JavaScript
 If(
     !Form2.Valid,
@@ -119,7 +119,7 @@ If(
 )
 ```
 ***
-<b><u>Validate DOB in PowerApps</u></b>
+##### `Validate DOB in PowerApps` #####
 ***
 ![image](https://user-images.githubusercontent.com/19554935/83313399-0b27e200-a1e4-11ea-9098-03c6a1dbc0f8.png)
 ![image](https://user-images.githubusercontent.com/19554935/83313439-2bf03780-a1e4-11ea-9fad-cb3afdf87cf2.png)
