@@ -7,10 +7,13 @@
 ### `PowerApps Formulas`
 ***
 ##
-##### `Toggle` #####
+<details open> 
+  <summary>##### `Toggle` #####</summary>
+  <br>
 ```JavaScript
 If(Toggle1.Value=true, true, false)
 ```
+</details>  
 ##
 ##### :white_check_mark: `Yes/No` #####
 ```JavaScript
