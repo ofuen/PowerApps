@@ -11,7 +11,8 @@
   <summary>Toggle</summary>
   <br>
 ```JavaScript
-If(Toggle1.Value=true, true, false)```
+If(Toggle1.Value=true, true, false)
+  ```
 </details>
 
 
