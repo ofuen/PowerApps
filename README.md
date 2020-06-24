@@ -8,7 +8,7 @@
 ***
 
 <details> 
-  <summary>Toggle</summary>
+  <summary><b>Toggle<b></summary>
  <br>
   
 ```JavaScript
