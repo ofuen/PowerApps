@@ -6,15 +6,15 @@
 ***
 ### `PowerApps Formulas`
 ***
-##
+
 <details open> 
   <summary>Toggle</summary>
   <br>
 ```JavaScript
-If(Toggle1.Value=true, true, false)
-```
-</details>  
-##
+If(Toggle1.Value=true, true, false)```
+</details>
+
+
 ##### :white_check_mark: `Yes/No` #####
 ```JavaScript
 If(DataCardValue*.Value=true, true, false)
