@@ -9,10 +9,11 @@
 
 <details> 
   <summary>Toggle</summary>
-  <br>
+ <br>
+  
 ```JavaScript
 If(Toggle1.Value=true, true, false)
-  ```
+```
 </details>
 
 
