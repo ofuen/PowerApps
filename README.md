@@ -25,7 +25,7 @@ If(Toggle1.Value=true, true, false)
 If(DataCardValue*.Value=true, true, false)
 ```
 </details>
-***
+
 
 ##### `If Toggle value is NO, N/A will be fill` #####
 ```JavaScript
