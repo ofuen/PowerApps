@@ -8,7 +8,7 @@
 ***
 
 <details> 
-  <summary><b>Toggle<b></summary>
+  <summary><b>Toggle</b></summary>
  <br>
   
 ```JavaScript
@@ -17,10 +17,14 @@ If(Toggle1.Value=true, true, false)
 </details>
 
 
-##### :white_check_mark: `Yes/No` #####
+<details>
+  <summary><b>Yes/No</b></summary>
+  <br>
+  
 ```JavaScript
 If(DataCardValue*.Value=true, true, false)
 ```
+</details>
 ##
 ***
 ##
