@@ -36,12 +36,15 @@ If(!(DataCardValue20),"N/A",Parent.Default)
 ```
 </details>
 
-##### `Default Property → Fill in N/A for Required field` #####
+<details>
+  <summary><b>Default Property → Fill in N/A for Required field</summary>
+    <br>
+    
 ```JavaScript
 If(!(DataCardValue37),"N/A",Parent.Default)
 ```
-###
-***
+</details>
+
 ##### `How to make two combo box search to display the content and vice versa` #####
 ```JavaScript
 If(!IsBlank(cbAddress.Selected.Text), 
