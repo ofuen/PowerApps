@@ -45,7 +45,10 @@ If(!(DataCardValue37),"N/A",Parent.Default)
 ```
 </details>
 
-##### `How to make two combo box search to display the content and vice versa` #####
+<details>
+  <summary>How to make two combo box search to display the content and vice versa</summary>
+  <br>
+  
 ```JavaScript
 If(!IsBlank(cbAddress.Selected.Text), 
 Filter(dataSource, addressColumn = cbAddress.Selected.Text), 
@@ -53,8 +56,8 @@ Filter(dataSource, addressColumn = cbAddress.Selected.Text),
 Filter(dataSource, jobNumberColumn = cbJobNumber.Selected.Text),
 Notify("Either JobNumber or Address is required", Error))
 ```
-###
-***
+</details>
+
 ##### `OnCheck Property` #####
 ```JavaScript
 ClearCollect(
