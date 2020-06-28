@@ -58,7 +58,10 @@ Notify("Either JobNumber or Address is required", Error))
 ```
 </details>
 
-##### `OnCheck Property` #####
+<details>
+  <summary>OnCheck Property</summary>
+  <br>
+  
 ```JavaScript
 ClearCollect(
     	SelectedEquipment,
@@ -73,9 +76,12 @@ ClearCollect(
     	)
     )
 ```
-###
-***
-##### `OnUncheck Property` #####
+</details>
+
+<details>
+  <summary>OnUncheck Property</summary>
+  <br>
+  
 ```JavaScript
 ClearCollect(
     	SelectedEquipment,
@@ -90,8 +96,8 @@ ClearCollect(
     	)
     )
 ```
-###
-***
+</details>
+
 ##### `Concatenate using 2 column` #####
 ```JavaScript
 Distinct(
