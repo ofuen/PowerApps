@@ -98,7 +98,10 @@ ClearCollect(
 ```
 </details>
 
-##### `Concatenate using 2 column` #####
+<details>
+  <summary>Concatenate using 2 column</summary>
+  <br>
+  
 ```JavaScript
 Distinct(
     Filter(
@@ -112,17 +115,22 @@ Distinct(
     )
 )
 ```
-###
-***
-##### `Remove Function - items property` #####
+</details>
+
+<details>
+  <summary>Remove Function - items property</summary>
+  <br>
+  
 ```JavaScript
 Remove(myCollection, GalleryName.Selected)
 or
 Remove(myCollection, ThisItem)
 ```
-###
-***
-##### `Validate Form and Gallery` #####
+</details>
+<details>
+  <summary>Validate Form and Gallery</summary>
+  <br>
+  
 ```JavaScript
 If(
     !Form2.Valid,
@@ -141,9 +149,11 @@ If(
     )
 )
 ```
-***
-##### `Validate DOB in PowerApps` #####
-***
+</details>
+
+<details>
+  <summary>Validate DOB in PowerApps</summary>
+  <br>
 ![image](https://user-images.githubusercontent.com/19554935/83313399-0b27e200-a1e4-11ea-9098-03c6a1dbc0f8.png)
 ![image](https://user-images.githubusercontent.com/19554935/83313439-2bf03780-a1e4-11ea-9fad-cb3afdf87cf2.png)
 ***
@@ -154,4 +164,4 @@ If(
    Notify("Right Date format",NotificationType.Success, 2000)
 )
 ```
-***
+</details>
