@@ -166,3 +166,11 @@ If(
 )
 ```
 </details>
+<details>
+  <summary>Patch/Update a SharePoint Item </summary>
+  <br>
+
+  ```Javascript
+Patch(SharePointList,LookUp(SharePointList, ID = Gallery1.Selected.ID))
+```
+</details>
