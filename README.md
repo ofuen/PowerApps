@@ -174,3 +174,11 @@ If(
 Patch(SharePointList,LookUp(SharePointList, ID = Gallery1.Selected.ID))
 ```
 </details>
+<details>
+  <summary>Prompt, When is a required field </summary>
+  <br>
+
+  ```Javascript
+If(Not(IsBlank(Parent.Error)),"Please fill in a destination")
+```
+</details>
