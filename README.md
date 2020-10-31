@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/19554935/66256981-bc639e80-e761-11e9-8f6c-03e461718035.png"/>
+<img src="https://images.squarespace-cdn.com/content/5cb1023fc2a769000119fe98/1601915218364-RW7EVD3XQQPGHTEF4CH7/Power+Platform+Icons.png?content-type=image%2Fpng"/>
   </p>
   
   
